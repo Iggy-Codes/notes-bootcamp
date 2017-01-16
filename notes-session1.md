@@ -1,3 +1,8 @@
+#Sublime Text
+
+* Shortcuts:
+    * Ctrl + k + b  Show / Hide SideBar
+
 #My project super cool
 
 ##Description
