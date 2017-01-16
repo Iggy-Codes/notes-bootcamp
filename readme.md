@@ -1,50 +1,37 @@
-#Sublime Text
-
-* Shortcuts:
-    * Ctrl + k + b  Show / Hide SideBar
-
-#My project super cool
-
-##Description
-
-This *super project* will be able to detec **human voice** and wil write the proper text in the device
 
 
-More info can be found [here](http://pixelovers.com)
+#MARKDOWN
 
-![image](C:\Users\iggy\Pictures\IMG_20161128_171932.jpg)
+* Format text 
+    * _italic_ text between \_
+    * **bold** text between \*\*
+    ** **_italic and bold_** text between \*\*\_
+    * Headers 
+        * #Header1
+        * ##Header2
+        * ###Header 3
+        * ####Header 4
+        * #####Header 5
+        * ######Header 6
+        
+    * List
+        + Item 1
+            + Item 1 Sublist 1
+            + Item 2 Sublist 2
+        + Item 2
+        
+    1. Numered List
+        1. Item 1 Sublist
+        1. Item 2 Sublist
+    1. Item 2 Numered List
+    
+    * Links
+        * Example 1  
+          [Search in Google](http://www.google.es "Title")
 
-* Milk
-* Bread
-* Drinks
-    - Water
-    - Beers
-        + Mahou
-    - Wine
+        * Example 2  
+        [Option 1][buscar] Ad astra per aspera.   
+        [Option 2][buscar] console.log()  
+        Then, anywhere in the document, you define your link label like this, on a line by itself:
 
-1. John
-    1. aaaa
-    1. bbbb
-    1. cccc
-2. Paul
-3. Ringo
-4. George
-  
-> Ad astra per aspera.
-
----
-
-To declare functions in javascript we user the keyword `function`
-
-```javascript
-    function sayHi(){
-        console.log("Hi!")
-    }
-
-```
-
-```html
-<h1>This is my title</h1>
-<p>This is a paragraph</p>
-```
-The *quick* brown fox, jumped **over** the lazy [dog](https://en.wikipedia.org/wiki/Dog).
+[buscar]: http://www.google.es "Optional Title Here"
